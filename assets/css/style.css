@@ -91,7 +91,8 @@ a.boxed-btn {
     text-decoration: none;
     color: gray;
     font-size: 15px;
-    margin: 30px 0;
+    padding: 10px 0;
+    display: block;
 }
 .footer-area p{
     font-size: 15px;
@@ -101,4 +102,9 @@ a.boxed-btn {
 .footer-area a{
     text-decoration: none;
     color: gray;
+}
+.footer-area-content a:hover{
+    color: #000000;
+    transition: .8s;
+    font-weight: 600;
 }
